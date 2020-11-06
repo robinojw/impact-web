@@ -1,0 +1,35 @@
+.title {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 50px;
+  width: 800px;
+  text-align: center;
+  line-height: 1;
+  transition: 1.2s;
+  opacity: 1;
+  color: white;
+  margin: 0 auto;
+  margin-top: 325px;
+  margin-bottom: 100px;
+}
+
+.page-desc {
+  font-weight: 500;
+  transition: 1.2s;
+  width: 82%;
+  opacity: 1;
+}
+
+.download-buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.download-buttons img {
+  width: 100px;
+  margin-right: 25px;
+}

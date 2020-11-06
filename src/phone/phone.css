@@ -1,0 +1,24 @@
+.phone {
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.phone img {
+  margin: 0 auto;
+  width: 40%;
+}
+
+.static-phone {
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  margin-top: -420px;
+  width: 100%;
+}
+
+.static-phone img {
+  margin: 0 auto;
+  width: 40%;
+}
