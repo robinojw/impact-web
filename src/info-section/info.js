@@ -1,7 +1,7 @@
 import './info.css'
 import React, { Component } from 'react';
 import ReactBodyMovin from 'react-bodymovin';
-import markus2 from './animation.json';
+import animation from './animation.json';
 
 class Info extends Component {
 
@@ -11,10 +11,10 @@ class Info extends Component {
       loop: true,
       autoplay: true,
       prerender: true,
-      animationData:  markus2
+      animationData:  animation
   };
     return (
-      <div className="info-section">
+      <div className="info-section" id="how">
         <div className="tracking">
           <div className="text">
             <h2>Impact tracks the emissions from your travel,

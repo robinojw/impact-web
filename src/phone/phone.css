@@ -2,12 +2,13 @@
   align-items: center;
   display: flex;
   margin: 0 auto;
+  position: relative;
   width: 100%;
 }
 
 .phone img {
   margin: 0 auto;
-  width: 40%;
+  min-width: 600px;
 }
 
 .static-phone {
@@ -15,10 +16,27 @@
   display: flex;
   margin: 0 auto;
   margin-top: -420px;
+  position: relative;
   width: 100%;
 }
 
 .static-phone img {
   margin: 0 auto;
-  width: 40%;
+  min-width: 600px;
+}
+
+.iphone-ani {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  z-index: -1;
+}
+
+.iphone-ani * {
+  width: 700px;
+  margin: 0 auto;
 }
